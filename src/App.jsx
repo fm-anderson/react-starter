@@ -1,17 +1,21 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import useDebugRender from "tilg";
-import { routesConfig } from "./routes/routesConfig";
-// import Layout from "./layout/Layout";
-
-const router = createBrowserRouter(routesConfig);
 
 function App() {
   useDebugRender();
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">React Starter</h1>
-      <RouterProvider router={router}>{/* <Layout /> */}</RouterProvider>
+    <div className="flex h-screen flex-col items-center justify-between text-center">
+      <header>
+        <h2 className="text-3xl font-bold">Header</h2>
+      </header>
+
+      <main>
+        <h1 className="text-3xl font-bold underline">React Starter</h1>
+      </main>
+
+      <footer>
+        <h2 className="text-3xl font-bold">Footer</h2>
+      </footer>
     </div>
   );
 }
