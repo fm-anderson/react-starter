@@ -5,8 +5,8 @@ Vite, React, TailwindCSS, Prettier, TiLg
 
 ## Feature
 
-- Starter Template for React Project.
-- Prettier + TailwindCSS configured.
+- Starter Template for [React Project](https://react.dev/).
+- [Prettier + TailwindCSS](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier) configured.
 
 ## Getting Started
 
