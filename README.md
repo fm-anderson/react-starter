@@ -1,4 +1,4 @@
-# React + Vite Starter Template
+# Vite + React Starter Template
 
 A minimal starter to scaffold your react project quickly.
 Vite, React, TailwindCSS, Prettier, TiLg
@@ -51,30 +51,31 @@ Vite, React, TailwindCSS, Prettier, TiLg
    ```sh
    cd react-starter
    ```
-3. Install dependencies
+3. Delete repository and keep cloned files
+   ```sh
+   rm -rf .git
+   ```
+4. Install dependencies
    ```sh
    npm install
    ```
-4. Run the react dev environment
+5. Run the react dev environment
    ```sh
    npm run dev
    ```
-5. The dev environment should be running on http://localhost:5173
+6. The dev environment should be running on http://localhost:5173
 
 ### Available scripts
 
 #### `npm dev`
 
-Runs the app in development mode.
-Open https://localhost:5173 to view it in the browser.
-
-The page will automatically reload if you make changes to the code.
+1. Runs the app in development mode.
+2. Open https://localhost:5173 to view it in the browser.
+3. The page will automatically reload if you make changes to the code.
 
 #### `npm build`
 
-Builds the app for production to the `dist` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-
-Your app is ready to be deployed.
+1. Builds the app for production to the `dist` folder.
+2. It correctly bundles React in production mode and optimizes the build for the best performance.
+3. The build is minified and the filenames include the hashes.
+4. Your app is ready to be deployed.
