@@ -22,7 +22,7 @@ Vite, React, React Router v6, TailwindCSS, Prettier, TiLg
 
 1. Create project directory from last commit
    ```sh
-   npx degit fm-anderson/react-starter myappname
+   npx degit fm-anderson/react-starter#router-v6-config myappname
    ```
 2. Navigate to the project directory
    ```sh
@@ -46,7 +46,7 @@ Vite, React, React Router v6, TailwindCSS, Prettier, TiLg
 
 1. Clone this repo
    ```sh
-   git clone https://github.com/fm-anderson/react-starter.git
+   git clone -b router-v6-config https://github.com/fm-anderson/react-starter.git
    ```
 2. Navigate to the project directory
    ```sh
