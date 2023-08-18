@@ -24,7 +24,7 @@ Vite, React, React Router v6, TailwindCSS, Prettier, TiLg
 
 1. Create project directory from last commit
    ```sh
-   npx degit fm-anderson/react-starter myappname
+   npx degit fm-anderson/react-starter#one-page myappname
    ```
 2. Navigate to the project directory
    ```sh
