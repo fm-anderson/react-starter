@@ -1,11 +1,13 @@
 # Vite + React Starter Template
 
 A minimal starter to scaffold your react project quickly.
-Vite, React, TailwindCSS, Prettier, TiLg
+Vite, React, React Router v6, TailwindCSS, Prettier, TiLg
 
 ## Feature
 
 - Starter Template for [React Project](https://react.dev/).
+- [React Router v6](https://reactrouter.com/en/main/routers/picking-a-router#using-v64-data-apis) configured.
+- [Loader function](https://reactrouter.com/en/main/route/loader) ready to fetch and return API data.
 - [Prettier + TailwindCSS](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier) configured.
 
 ## Getting Started

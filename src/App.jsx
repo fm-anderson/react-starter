@@ -1,21 +1,23 @@
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import useDebugRender from "tilg";
+import HomePage, { homeLoader } from "./routes/HomePage";
+import ErrorPage from "./routes/ErrorPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+    errorElement: <ErrorPage />,
+    loader: homeLoader,
+  },
+]);
 
 function App() {
   useDebugRender();
 
   return (
-    <div className="flex h-screen flex-col items-center justify-between text-center">
-      <header>
-        <h2 className="text-3xl font-bold">Header</h2>
-      </header>
-
-      <main>
-        <h1 className="text-3xl font-bold underline">React Starter</h1>
-      </main>
-
-      <footer>
-        <h2 className="text-3xl font-bold">Footer</h2>
-      </footer>
+    <div>
+      <RouterProvider router={router} />
     </div>
   );
 }
