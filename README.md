@@ -2,7 +2,11 @@
 
 A minimal starter to scaffold your react project quickly.
 
-Vite, React, TailwindCSS, Prettier, TiLg
+| Starter                                                                         | Tools                               |
+| ------------------------------------------------------------------------------- | ----------------------------------- |
+| [The Basics](https://github.com/fm-anderson/react-starter)                      | React, TailwindCss, TiLg            |
+| [Router V6](https://github.com/fm-anderson/react-starter/tree/router-v6-config) | React, Router v6, TailwindCss, TiLg |
+| [One Page App](https://github.com/fm-anderson/react-starter/tree/one-page)      | React, Router v6, TailwindCss, TiLg |
 
 ## Feature
 
