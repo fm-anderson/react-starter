@@ -48,7 +48,7 @@ Vite, React, React Router v6, TailwindCSS, Prettier, TiLg
 
 1. Clone this repo
    ```sh
-   git clone https://github.com/fm-anderson/react-starter.git
+   git clone -b one-page https://github.com/fm-anderson/react-starter.git
    ```
 2. Navigate to the project directory
    ```sh
