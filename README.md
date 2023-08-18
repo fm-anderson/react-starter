@@ -1,6 +1,7 @@
 # Vite + React Starter Template
 
 A minimal starter to scaffold your react project quickly.
+
 Vite, React, React Router v6, TailwindCSS, Prettier, TiLg
 
 ## Feature
