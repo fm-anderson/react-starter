@@ -2,11 +2,12 @@
 
 A minimal starter to scaffold your react project quickly.
 
-| Starter                                                                                | Tools                               |
-| -------------------------------------------------------------------------------------- | ----------------------------------- |
-| [The Basics](https://github.com/fm-anderson/react-starter#readme)                      | React, TailwindCss, TiLg            |
-| [Router V6](https://github.com/fm-anderson/react-starter/tree/router-v6-config#readme) | React, Router v6, TailwindCss, TiLg |
-| [One Page App](https://github.com/fm-anderson/react-starter/tree/one-page#readme)      | React, Router v6, TailwindCss, TiLg |
+| Starter                                                                                 | Tools                                              |
+| --------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| [The Basics](https://github.com/fm-anderson/react-starter#readme)                       | React, TailwindCss, TiLg                           |
+| [Router V6](https://github.com/fm-anderson/react-starter/tree/router-v6-config#readme)  | React, TailwindCss, TiLg, Router v6                |
+| [One Page App](https://github.com/fm-anderson/react-starter/tree/one-page#readme)       | React, TailwindCss, TiLg, Router v6                |
+| [Firebase Auth](https://github.com/fm-anderson/react-starter/tree/firebase-auth#readme) | React, TailwindCss, TiLg, Router v6, Firebase Auth |
 
 ## Feature
 
