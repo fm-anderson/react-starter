@@ -2,17 +2,19 @@
 
 A minimal starter to scaffold your react project quickly.
 
-| Starter                                                                                | Tools                               |
-| -------------------------------------------------------------------------------------- | ----------------------------------- |
-| [The Basics](https://github.com/fm-anderson/react-starter#readme)                      | React, TailwindCss, TiLg            |
-| [Router V6](https://github.com/fm-anderson/react-starter/tree/router-v6-config#readme) | React, Router v6, TailwindCss, TiLg |
-| [One Page App](https://github.com/fm-anderson/react-starter/tree/one-page#readme)      | React, Router v6, TailwindCss, TiLg |
+| Starter                                                                                 | Tools                                              |
+| --------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| [The Basics](https://github.com/fm-anderson/react-starter#readme)                       | React, TailwindCss, TiLg                           |
+| [Router V6](https://github.com/fm-anderson/react-starter/tree/router-v6-config#readme)  | React, TailwindCss, TiLg, Router v6                |
+| [One Page App](https://github.com/fm-anderson/react-starter/tree/one-page#readme)       | React, TailwindCss, TiLg, Router v6                |
+| [Firebase Auth](https://github.com/fm-anderson/react-starter/tree/firebase-auth#readme) | React, TailwindCss, TiLg, Router v6, Firebase Auth |
 
 ## Feature
 
 - Starter Template for [React Project](https://react.dev/).
-- [React Router v6](https://reactrouter.com/en/main/routers/picking-a-router#using-v64-data-apis) configured.
 - [Prettier + TailwindCSS](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier) configured.
+- [React Router v6](https://reactrouter.com/en/main/routers/picking-a-router#using-v64-data-apis) configured.
+- [Firebase Auth](https://firebase.google.com/docs/auth) configured.
 
 ## Getting Started
 
@@ -27,7 +29,7 @@ A minimal starter to scaffold your react project quickly.
 
 1. Create project directory from last commit
    ```sh
-   npx degit fm-anderson/react-starter#router-v6-config myappname
+   npx degit fm-anderson/react-starter#firebase-auth myappname
    ```
 2. Navigate to the project directory
    ```sh
@@ -37,21 +39,33 @@ A minimal starter to scaffold your react project quickly.
    ```sh
    git init
    ```
-4. Install dependencies
+4. Create a .env file for Firebase configuration
+
+   ```sh
+   echo "VITE_API_KEY=paste-string-without-quotes-here
+   VITE_AUTH_DOMAIN=paste-string-without-quotes-here
+   VITE_PROJECT_ID=paste-string-without-quotes-here
+   VITE_STORAGE_BUCKET=paste-string-without-quotes-here
+   VITE_MESSAGING_SENDER_ID=paste-string-without-quotes-here
+   VITE_APP_ID=paste-string-without-quotes-here" > .env
+
+   ```
+
+5. Install dependencies
    ```sh
    npm install
    ```
-5. Run the react dev environment
+6. Run the react dev environment
    ```sh
    npm run dev
    ```
-6. The dev environment should be running on http://localhost:5173
+7. The dev environment should be running on http://localhost:5173
 
 ### Installation (using git)
 
 1. Clone this repo
    ```sh
-   git clone -b router-v6-config https://github.com/fm-anderson/react-starter.git
+   git clone -b firebase-auth https://github.com/fm-anderson/react-starter.git
    ```
 2. Navigate to the project directory
    ```sh
@@ -61,15 +75,27 @@ A minimal starter to scaffold your react project quickly.
    ```sh
    rm -rf .git
    ```
-4. Install dependencies
+4. Create a .env file for Firebase configuration
+
+   ```sh
+   echo "VITE_API_KEY=paste-string-without-quotes-here
+   VITE_AUTH_DOMAIN=paste-string-without-quotes-here
+   VITE_PROJECT_ID=paste-string-without-quotes-here
+   VITE_STORAGE_BUCKET=paste-string-without-quotes-here
+   VITE_MESSAGING_SENDER_ID=paste-string-without-quotes-here
+   VITE_APP_ID=paste-string-without-quotes-here" > .env
+
+   ```
+
+5. Install dependencies
    ```sh
    npm install
    ```
-5. Run the react dev environment
+6. Run the react dev environment
    ```sh
    npm run dev
    ```
-6. The dev environment should be running on http://localhost:5173
+7. The dev environment should be running on http://localhost:5173
 
 ### Available scripts
 
