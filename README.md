@@ -1,4 +1,5 @@
-# Vite + React Starter Template
+# Router V6 - React Starter Template
+
 
 A minimal starter to scaffold your react project quickly.
 
