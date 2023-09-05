@@ -1,4 +1,4 @@
-# Vite + React Starter Template
+# Firebase Auth - React Starter Template
 
 A minimal starter to scaffold your react project quickly.
 
