@@ -1,6 +1,5 @@
 # The Basics - React Starter Template
 
-
 A minimal starter to scaffold your react project quickly.
 
 | Starter                                                                                 | Tools                                              |
